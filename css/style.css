@@ -20,6 +20,8 @@ header {
 header .logo {
   height: 40px; /* ロゴ画像の高さ（必要に応じて調整） */
   margin-right: 20px;
+  display: flex;
+  align-items: center; /* 垂直方向に中央寄せ */
 }
 header nav a {
   margin-left: 20px;
