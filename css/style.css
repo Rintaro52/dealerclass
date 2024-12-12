@@ -18,7 +18,7 @@ header {
   z-index: 1000;
 }
 header .logo {
-  height: 40px; /* ロゴ画像の高さ（必要に応じて調整） */
+  height: 30px; /* ロゴ画像の高さ（必要に応じて調整） */
   width: 20vh;
   margin-right: 20px;
 }
