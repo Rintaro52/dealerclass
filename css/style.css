@@ -30,16 +30,18 @@ header nav a {
 
 .hero {
   position: relative;
-  height: 70vh;
-  min-height: 500px;
-  background-image: url("images/dealer.jpeg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 100%;
+  height: 70vh; /* ビューポート高の70% */
+  min-height: 500px; /* 最低高さを確保 */
+  background-image: url("/images/dealer.jpeg"); /* 背景画像のパスを調整 */
+  background-size: cover; /* 要素を覆うように拡大縮小 */
+  background-position: center; /* 画像を中央配置 */
+  background-repeat: no-repeat; /* 繰り返しなし */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* 垂直方向に中央寄せ */
+  justify-content: center; /* 水平方向に中央寄せ */
   text-align: center;
+  color: #fff; /* テキスト色を白に */
 }
 .hero::before {
   content: "";
