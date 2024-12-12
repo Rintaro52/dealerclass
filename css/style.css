@@ -33,7 +33,7 @@ header nav a {
   width: 100%;
   height: 70vh; /* ビューポート高の70% */
   min-height: 500px; /* 最低高さを確保 */
-  background-image: url("../images/pokerdealer.png"); /* 背景画像のパスを調整 */
+  background-image: url("../images/deal.png"); /* 背景画像のパスを調整 */
   background-size: cover; /* 要素を覆うように拡大縮小 */
   background-position: center; /* 画像を中央配置 */
   background-repeat: no-repeat; /* 繰り返しなし */
