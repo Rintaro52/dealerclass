@@ -18,8 +18,8 @@ header {
   z-index: 1000;
 }
 header .logo {
-  font-weight: bold;
-  font-size: 1.2em;
+  height: 40px; /* ロゴ画像の高さ（必要に応じて調整） */
+  margin-right: 20px;
 }
 header nav a {
   margin-left: 20px;
