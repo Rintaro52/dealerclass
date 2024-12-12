@@ -32,7 +32,9 @@ header nav a {
   position: relative;
   height: 70vh;
   min-height: 500px;
-  background-image: url("images/dealer.jpeg") no-repeat center center;
+  background-image: url("images/dealer.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   display: flex;
   align-items: center;
