@@ -43,7 +43,7 @@ header nav a {
   align-items: center; /* 垂直方向に中央寄せ */
   justify-content: center; /* 水平方向に中央寄せ */
   text-align: center;
-  color: #fff; /* テキスト色を白に */
+  color: #333; /* テキスト色を白に */
 }
 .hero::before {
   content: "";
